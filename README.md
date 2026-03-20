@@ -14,17 +14,17 @@ Open-Meteo Historical Weather API: https://open-meteo.com/
 
 ## ETL & data preparation
 ETL Pipeline: 
-A[Raw POS + Inventory + Weather Data] --> B[Extract]
-B --> C[Transform - Convert Transactions to Datetime]
-C --> D[Transform - Convert Quantity & Unit Price to Numeric]
-D --> E[Transform - Deduplicate]
-E --> F[Transform - Standardize Category & Product Name]
-F --> G[Transform - Align Timestamps]
-G --> H[Transform - Convert Store ID to Numeric]
-H --> I[Transform - Join Store Data with Transaction Data]
-I --> J[Load Cleaned Dataframes for Analysis]
-J --> K[Analyze]
-K --> L[Business Decision: Pre-stock Board Games]
+- A[Raw POS + Inventory + Weather Data] --> B[Extract]
+- B --> C[Transform - Convert Transactions to Datetime]
+- C --> D[Transform - Convert Quantity & Unit Price to Numeric]
+- D --> E[Transform - Deduplicate]
+- E --> F[Transform - Standardize Category & Product Name]
+- F --> G[Transform - Align Timestamps]
+- G --> H[Transform - Convert Store ID to Numeric]
+- H --> I[Transform - Join Store Data with Transaction Data]
+- I --> J[Load Cleaned Dataframes for Analysis]
+- J --> K[Analyze]
+- K --> L[Business Decision: Pre-stock Board Games]
 
 ## Analysis approach
 We conducted several analyses to understand demand behavior before the hurricane:
