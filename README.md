@@ -1,4 +1,5 @@
-# Names and Computing IDs: Andrew Nguyen (fru4yr), Zaylie Tamashiro (gqv7zm)
+# Names and Computing IDs: 
+Andrew Nguyen (fru4yr), Zaylie Tamashiro (gqv7zm)
 
 # Walmart Hurricane Project
 A new hurricane is approaching Florida, and Walmart leadership needs answers fast on what products people will want to buy and how much to actually supply.
