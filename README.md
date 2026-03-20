@@ -13,17 +13,7 @@ Open-Meteo Historical Weather API: https://open-meteo.com/
 - Limitations: Data is location-specific (single latitude-longitude used)
 
 ## ETL & data preparation
-Describe your pipeline:
-- raw inputs
-- cleaning steps
-- joins / keys
-- feature creation
-- outputs
-Raw inputs:
-- CSV files
-- SQLite Database
-- Weather API (JSON)
-Cleaning Steps:
+ETL Pipeline: 
 A[Raw POS + Inventory + Weather Data] --> B[Extract]
 B --> C[Transform - Convert Transactions to Datetime]
 C --> D[Transform - Convert Quantity & Unit Price to Numeric]
